@@ -5,6 +5,9 @@
   <script src="//unpkg.com/react-dom/umd/react-dom.production.min.js"></script>
   <script src="//unpkg.com/babel-standalone"></script>
 
+  <script src="//unpkg.com/d3"></script>
+  <script src="//unpkg.com/d3-dsv"></script>
+
   <script src="//unpkg.com/react-globe.gl"></script>
   <!--<script src="../../dist/react-globe.gl.js"></script>-->
 </head>
@@ -13,27 +16,36 @@
 <div id="globeViz"></div>
 
 <script type="text/jsx">
-  const { useState, useEffect } = React;
+  const { useState, useEffect, useRef } = React;
 
   const World = () => {
+    const globeEl = useRef();
     const [places, setPlaces] = useState([]);
 
     useEffect(() => {
       // load data
-      fetch('../datasets/ne_110m_populated_places_simple.geojson').then(res => res.json())
-        .then(({ features }) => setPlaces(features));
+      fetch('../datasets/world_population.csv').then(res => res.text())
+        .then(d3.csvParse)
+        .then(setPlaces);
+    }, []);
+
+    useEffect(() => {
+      // Auto-rotate
+      globeEl.current.controls().autoRotate = true;
+      globeEl.current.controls().autoRotateSpeed = 0.1;
     }, []);
 
     return <Globe
+      ref={globeEl}
       globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
       backgroundImageUrl="//unpkg.com/three-globe/example/img/night-sky.png"
 
       labelsData={places}
-      labelLat={d => d.properties.latitude}
-      labelLng={d => d.properties.longitude}
+      labelLat={d => d.lng}
+      labelLng={d => d.lat}
       labelText={d => ''}
-      labelSize={d => Math.sqrt(d.properties.pop_max) * 4e-4}
-      labelDotRadius={d => Math.sqrt(d.properties.pop_max) * 4e-4}
+      labelSize={d => 0}
+      labelDotRadius={d => 8.*Math.pow(1/7,parseInt(d.pop)/2)}
       labelColor={() => 'rgba(255, 165, 0, 0.75)'}
       labelResolution={2}
     />;
