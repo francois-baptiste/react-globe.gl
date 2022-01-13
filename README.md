@@ -5,42 +5,42 @@ react-globe.gl
 [![Build Size][build-size-img]][build-size-url]
 [![Dependencies][dependencies-img]][dependencies-url]
 
-React bindings for the [globe.gl](https://github.com/vasturiano/globe.gl) UI component.
+React bindings for the [globe.gl](https://github.com/francois-baptiste/globe.gl) UI component.
 
 <p align="center">
-   <a href="//vasturiano.github.io/react-globe.gl/example/world-population/"><img width="48%" src="https://vasturiano.github.io/react-globe.gl/example/world-population/preview.png"></a>
-   <a href="//vasturiano.github.io/react-globe.gl/example/airline-routes/us-international-outbound.html"><img width="48%" src="https://vasturiano.github.io/react-globe.gl/example/airline-routes/preview.png"></a>
-   <a href="//vasturiano.github.io/react-globe.gl/example/countries-population/"><img width="48%" src="https://vasturiano.github.io/react-globe.gl/example/countries-population/preview.png"></a>
-   <a href="//vasturiano.github.io/react-globe.gl/example/submarine-cables/"><img width="48%" src="https://vasturiano.github.io/react-globe.gl/example/submarine-cables/preview.png"></a>
-   <a href="//vasturiano.github.io/react-globe.gl/example/hexed-polygons/"><img width="48%" src="https://vasturiano.github.io/react-globe.gl/example/hexed-polygons/preview.png"></a>
-   <a href="//vasturiano.github.io/react-globe.gl/example/world-cities/"><img width="48%" src="https://vasturiano.github.io/react-globe.gl/example/world-cities/preview.png"></a>
+   <a href="//francois-baptiste.github.io/react-globe.gl/example/world-population/"><img width="48%" src="https://francois-baptiste.github.io/react-globe.gl/example/world-population/preview.png"></a>
+   <a href="//francois-baptiste.github.io/react-globe.gl/example/airline-routes/us-international-outbound.html"><img width="48%" src="https://francois-baptiste.github.io/react-globe.gl/example/airline-routes/preview.png"></a>
+   <a href="//francois-baptiste.github.io/react-globe.gl/example/countries-population/"><img width="48%" src="https://francois-baptiste.github.io/react-globe.gl/example/countries-population/preview.png"></a>
+   <a href="//francois-baptiste.github.io/react-globe.gl/example/submarine-cables/"><img width="48%" src="https://francois-baptiste.github.io/react-globe.gl/example/submarine-cables/preview.png"></a>
+   <a href="//francois-baptiste.github.io/react-globe.gl/example/hexed-polygons/"><img width="48%" src="https://francois-baptiste.github.io/react-globe.gl/example/hexed-polygons/preview.png"></a>
+   <a href="//francois-baptiste.github.io/react-globe.gl/example/world-cities/"><img width="48%" src="https://francois-baptiste.github.io/react-globe.gl/example/world-cities/preview.png"></a>
 </p>
 
 A React component to represent data visualization layers on a 3-dimensional globe in a spherical projection, using [ThreeJS](https://github.com/mrdoob/three.js/)/WebGL for 3D rendering.
 
 Check out the examples:
-* [Basic](https://vasturiano.github.io/react-globe.gl/example/basic/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/basic/index.html))
-* [Arc Links](https://vasturiano.github.io/react-globe.gl/example/random-arcs/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/random-arcs/index.html))
-* [Highlight links](https://vasturiano.github.io/react-globe.gl/example/airline-routes/highlight-links.html) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/airline-routes/highlight-links.html))
-* [Choropleth](https://vasturiano.github.io/react-globe.gl/example/choropleth-countries/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/choropleth-countries/index.html))
-* [Elevated Polygons](https://vasturiano.github.io/react-globe.gl/example/countries-population/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/countries-population/index.html))
-* [Hollow Globe](https://vasturiano.github.io/react-globe.gl/example/hollow-globe/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/hollow-globe/index.html))
-* [Path Lines](https://vasturiano.github.io/react-globe.gl/example/random-paths/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/random-paths/index.html))
-* [Map Labels](https://vasturiano.github.io/react-globe.gl/example/world-cities/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/world-cities/index.html))
-* [Hexed Country Polygons](https://vasturiano.github.io/react-globe.gl/example/hexed-polygons/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/hexed-polygons/index.html))
-* [Tiles](https://vasturiano.github.io/react-globe.gl/example/tiles/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/tiles/index.html))
-* [Ripple Rings](https://vasturiano.github.io/react-globe.gl/example/random-rings/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/random-rings/index.html))
-* [Emit Arcs on Click](https://vasturiano.github.io/react-globe.gl/example/emit-arcs-on-click/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/emit-arcs-on-click/index.html))
-* [Solar Terminator](https://vasturiano.github.io/react-globe.gl/example/solar-terminator/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/solar-terminator/index.html))
-* [Custom Globe Styling](https://vasturiano.github.io/react-globe.gl/example/custom-globe-styling/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/custom-globe-styling/index.html))
-* [Custom Layer](https://vasturiano.github.io/react-globe.gl/example/custom-layer/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/custom-layer/index.html))
-* [World Population](https://vasturiano.github.io/react-globe.gl/example/world-population/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/world-population/index.html))
-* [Recent Earthquakes](https://vasturiano.github.io/react-globe.gl/example/earthquakes/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/earthquakes/index.html))
-* [World Volcanoes](https://vasturiano.github.io/react-globe.gl/example/volcanoes/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/volcanoes/index.html))
-* [US outbound international airline routes](https://vasturiano.github.io/react-globe.gl/example/airline-routes/us-international-outbound.html) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/airline-routes/us-international-outbound.html))
-* [Earth Shield](https://vasturiano.github.io/react-globe.gl/example/earth-shield/) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/earth-shield/index.html))
-* [Submarine Cables](https://vasturiano.github.io/react-globe.gl/example/submarine-cables/index.html) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/submarine-cables/index.html))
-* [Moon Landing Sites](https://vasturiano.github.io/react-globe.gl/example/moon-landing-sites/index.html) ([source](https://github.com/vasturiano/react-globe.gl/blob/master/example/moon-landing-sites/index.html))
+* [Basic](https://francois-baptiste.github.io/react-globe.gl/example/basic/) ([source](https://github.com/francois-baptiste/react-globe.gl/blob/master/example/basic/index.html))
+* [Arc Links](https://francois-baptiste.github.io/react-globe.gl/example/random-arcs/) ([source](https://github.com/francois-baptiste/react-globe.gl/blob/master/example/random-arcs/index.html))
+* [Highlight links](https://francois-baptiste.github.io/react-globe.gl/example/airline-routes/highlight-links.html) ([source](https://github.com/francois-baptiste/react-globe.gl/blob/master/example/airline-routes/highlight-links.html))
+* [Choropleth](https://francois-baptiste.github.io/react-globe.gl/example/choropleth-countries/) ([source](https://github.com/francois-baptiste/react-globe.gl/blob/master/example/choropleth-countries/index.html))
+* [Elevated Polygons](https://francois-baptiste.github.io/react-globe.gl/example/countries-population/) ([source](https://github.com/francois-baptiste/react-globe.gl/blob/master/example/countries-population/index.html))
+* [Hollow Globe](https://francois-baptiste.github.io/react-globe.gl/example/hollow-globe/) ([source](https://github.com/francois-baptiste/react-globe.gl/blob/master/example/hollow-globe/index.html))
+* [Path Lines](https://francois-baptiste.github.io/react-globe.gl/example/random-paths/) ([source](https://github.com/francois-baptiste/react-globe.gl/blob/master/example/random-paths/index.html))
+* [Map Labels](https://francois-baptiste.github.io/react-globe.gl/example/world-cities/) ([source](https://github.com/francois-baptiste/react-globe.gl/blob/master/example/world-cities/index.html))
+* [Hexed Country Polygons](https://francois-baptiste.github.io/react-globe.gl/example/hexed-polygons/) ([source](https://github.com/francois-baptiste/react-globe.gl/blob/master/example/hexed-polygons/index.html))
+* [Tiles](https://francois-baptiste.github.io/react-globe.gl/example/tiles/) ([source](https://github.com/francois-baptiste/react-globe.gl/blob/master/example/tiles/index.html))
+* [Ripple Rings](https://francois-baptiste.github.io/react-globe.gl/example/random-rings/) ([source](https://github.com/francois-baptiste/react-globe.gl/blob/master/example/random-rings/index.html))
+* [Emit Arcs on Click](https://francois-baptiste.github.io/react-globe.gl/example/emit-arcs-on-click/) ([source](https://github.com/francois-baptiste/react-globe.gl/blob/master/example/emit-arcs-on-click/index.html))
+* [Solar Terminator](https://francois-baptiste.github.io/react-globe.gl/example/solar-terminator/) ([source](https://github.com/francois-baptiste/react-globe.gl/blob/master/example/solar-terminator/index.html))
+* [Custom Globe Styling](https://francois-baptiste.github.io/react-globe.gl/example/custom-globe-styling/) ([source](https://github.com/francois-baptiste/react-globe.gl/blob/master/example/custom-globe-styling/index.html))
+* [Custom Layer](https://francois-baptiste.github.io/react-globe.gl/example/custom-layer/) ([source](https://github.com/francois-baptiste/react-globe.gl/blob/master/example/custom-layer/index.html))
+* [World Population](https://francois-baptiste.github.io/react-globe.gl/example/world-population/) ([source](https://github.com/francois-baptiste/react-globe.gl/blob/master/example/world-population/index.html))
+* [Recent Earthquakes](https://francois-baptiste.github.io/react-globe.gl/example/earthquakes/) ([source](https://github.com/francois-baptiste/react-globe.gl/blob/master/example/earthquakes/index.html))
+* [World Volcanoes](https://francois-baptiste.github.io/react-globe.gl/example/volcanoes/) ([source](https://github.com/francois-baptiste/react-globe.gl/blob/master/example/volcanoes/index.html))
+* [US outbound international airline routes](https://francois-baptiste.github.io/react-globe.gl/example/airline-routes/us-international-outbound.html) ([source](https://github.com/francois-baptiste/react-globe.gl/blob/master/example/airline-routes/us-international-outbound.html))
+* [Earth Shield](https://francois-baptiste.github.io/react-globe.gl/example/earth-shield/) ([source](https://github.com/francois-baptiste/react-globe.gl/blob/master/example/earth-shield/index.html))
+* [Submarine Cables](https://francois-baptiste.github.io/react-globe.gl/example/submarine-cables/index.html) ([source](https://github.com/francois-baptiste/react-globe.gl/blob/master/example/submarine-cables/index.html))
+* [Moon Landing Sites](https://francois-baptiste.github.io/react-globe.gl/example/moon-landing-sites/index.html) ([source](https://github.com/francois-baptiste/react-globe.gl/blob/master/example/moon-landing-sites/index.html))
 
 
 ## Quick start
@@ -90,7 +90,7 @@ ReactDOM.render(
 | <b>showAtmosphere</b> | <i>bool</i> | `true` | Whether to show a bright halo surrounding the globe, representing the atmosphere. |
 | <b>atmosphereColor</b> | <i>string</i> | `lightskyblue` | The color of the atmosphere. |
 | <b>atmosphereAltitude</b> | <i>string</i> | 0.15 | The max altitude of the atmosphere, in terms of globe radius units. |
-| <b>globeMaterial</b> | <i>Material</i> | [MeshPhongMaterial](https://threejs.org/docs/#api/en/materials/MeshPhongMaterial) | ThreeJS material used to wrap the globe. Can be used for more advanced styling of the globe, like in [this example](https://github.com/vasturiano/react-globe.gl/blob/master/example/custom-globe-styling/index.html). |
+| <b>globeMaterial</b> | <i>Material</i> | [MeshPhongMaterial](https://threejs.org/docs/#api/en/materials/MeshPhongMaterial) | ThreeJS material used to wrap the globe. Can be used for more advanced styling of the globe, like in [this example](https://github.com/francois-baptiste/react-globe.gl/blob/master/example/custom-globe-styling/index.html). |
 | <b>onGlobeReady</b> | <i>func</i> | *-* | Callback function to invoke immediately after the globe has been initialized and visible on the scene. |
 | <b>onGlobeClick</b> | <i>func</i> | *-* | Callback function for (left-button) clicks on the globe. The clicked globe coordinates and the event object are included as arguments: `onGlobeClick({ lat, lng }, event)`. |
 | <b>onGlobeRightClick</b> | <i>func</i> | *-* | Callback function for right-clicks on the globe. The clicked globe coordinates and the event object are included as arguments: `onGlobeRightClick({ lat, lng }, event)`. |
@@ -98,7 +98,7 @@ ReactDOM.render(
 ### Points Layer
 
 <p align="center">
-   <a href="//vasturiano.github.io/react-globe.gl/example/basic/"><img width="70%" src="https://vasturiano.github.io/react-globe.gl/example/basic/preview.png"></a>
+   <a href="//francois-baptiste.github.io/react-globe.gl/example/basic/"><img width="70%" src="https://francois-baptiste.github.io/react-globe.gl/example/basic/preview.png"></a>
 </p>
 
 | Prop | Type | Default | Description |
@@ -120,7 +120,7 @@ ReactDOM.render(
 ### Arcs Layer
 
 <p align="center">
-   <a href="//vasturiano.github.io/react-globe.gl/example/random-arcs/"><img width="70%" src="https://vasturiano.github.io/react-globe.gl/example/random-arcs/preview.png"></a>
+   <a href="//francois-baptiste.github.io/react-globe.gl/example/random-arcs/"><img width="70%" src="https://francois-baptiste.github.io/react-globe.gl/example/random-arcs/preview.png"></a>
 </p>
 
 | Prop | Type | Default | Description |
@@ -149,7 +149,7 @@ ReactDOM.render(
 ### Polygons Layer
 
 <p align="center">
-   <a href="//vasturiano.github.io/react-globe.gl/example/choropleth-countries/"><img width="70%" src="https://vasturiano.github.io/react-globe.gl/example/choropleth-countries/preview.png"></a>
+   <a href="//francois-baptiste.github.io/react-globe.gl/example/choropleth-countries/"><img width="70%" src="https://francois-baptiste.github.io/react-globe.gl/example/choropleth-countries/preview.png"></a>
 </p>
 
 | Prop | Type | Default | Description |
@@ -172,7 +172,7 @@ ReactDOM.render(
 ### Paths Layer
 
 <p align="center">
-   <a href="//vasturiano.github.io/react-globe.gl/example/random-paths/"><img width="70%" src="https://vasturiano.github.io/react-globe.gl/example/random-paths/preview.png"></a>
+   <a href="//francois-baptiste.github.io/react-globe.gl/example/random-paths/"><img width="70%" src="https://francois-baptiste.github.io/react-globe.gl/example/random-paths/preview.png"></a>
 </p>
 
 | Prop | Type | Default | Description |
@@ -185,7 +185,7 @@ ReactDOM.render(
 | <b>pathPointAlt | <i>number</i>, <i>string</i> or <i>func</i> | 0.001 | Path point object accessor function, attribute or a numeric constant for the point altitude, in terms of globe radius units (`0` = 0 altitude (ground), `1` = globe radius). |
 | <b>pathResolution | <i>number</i> | 2 | The path's angular resolution, in lat/lng degrees. If the ground distance (excluding altitude) between two adjacent path points is larger than this value, the line segment will be interpolated in order to approximate the curvature of the sphere surface. Lower values yield more perfectly curved lines, at the cost of performance. |
 | <b>pathColor | <i>string</i>, <i>[string, ...]</i> or <i>func</i> | `() => '#ffffaa'` | Path object accessor function or attribute for the line's color. Also supports color gradients by passing an array of colors, or a color interpolator function. Transparent colors are not supported in Fat Lines with set width. |
-| <b>pathStroke | <i>number</i>, <i>string</i> or <i>func</i> | `null` | Path object accessor function, attribute or a numeric constant for the line's diameter, in angular degrees. A value of `null` or `undefined` will render a [ThreeJS Line](https://threejs.org/docs/#api/objects/Line) whose width is constant (`1px`) regardless of the camera distance. Otherwise, a [FatLine](https://github.com/vasturiano/three-fatline) is used. |
+| <b>pathStroke | <i>number</i>, <i>string</i> or <i>func</i> | `null` | Path object accessor function, attribute or a numeric constant for the line's diameter, in angular degrees. A value of `null` or `undefined` will render a [ThreeJS Line](https://threejs.org/docs/#api/objects/Line) whose width is constant (`1px`) regardless of the camera distance. Otherwise, a [FatLine](https://github.com/francois-baptiste/three-fatline) is used. |
 | <b>pathDashLength | <i>number</i>, <i>string</i> or <i>func</i> | 1 | Path object accessor function, attribute or a numeric constant for the length of the dashed segments in the path line, in terms of relative length of the whole line (`1` = full line length). |
 | <b>pathDashGap | <i>number</i>, <i>string</i> or <i>func</i> | 0 | Path object accessor function, attribute or a numeric constant for the length of the gap between dash segments, in terms of relative line length. |
 | <b>pathDashInitialGap | <i>number</i>, <i>string</i> or <i>func</i> | 0 | Path object accessor function, attribute or a numeric constant for the length of the initial gap before the first dash segment, in terms of relative line length. |
@@ -198,7 +198,7 @@ ReactDOM.render(
 ### Hex Bin Layer
 
 <p align="center">
-   <a href="//vasturiano.github.io/react-globe.gl/example/earthquakes/"><img width="70%" src="https://vasturiano.github.io/react-globe.gl/example/earthquakes/preview.png"></a>
+   <a href="//francois-baptiste.github.io/react-globe.gl/example/earthquakes/"><img width="70%" src="https://francois-baptiste.github.io/react-globe.gl/example/earthquakes/preview.png"></a>
 </p>
 
 | Prop | Type | Default | Description |
@@ -223,7 +223,7 @@ ReactDOM.render(
 ### Hexed Polygons Layer
 
 <p align="center">
-   <a href="//vasturiano.github.io/react-globe.gl/example/hexed-polygons/"><img width="70%" src="https://vasturiano.github.io/react-globe.gl/example/hexed-polygons/preview.png"></a>
+   <a href="//francois-baptiste.github.io/react-globe.gl/example/hexed-polygons/"><img width="70%" src="https://francois-baptiste.github.io/react-globe.gl/example/hexed-polygons/preview.png"></a>
 </p>
 
 | Prop | Type | Default | Description |
@@ -244,7 +244,7 @@ ReactDOM.render(
 ### Tiles Layer
 
 <p align="center">
-   <a href="//vasturiano.github.io/react-globe.gl/example/tiles/"><img width="70%" src="https://vasturiano.github.io/react-globe.gl/example/tiles/preview.png"></a>
+   <a href="//francois-baptiste.github.io/react-globe.gl/example/tiles/"><img width="70%" src="https://francois-baptiste.github.io/react-globe.gl/example/tiles/preview.png"></a>
 </p>
 
 | Prop | Type | Default | Description |
@@ -267,7 +267,7 @@ ReactDOM.render(
 ### Rings Layer
 
 <p align="center">
-   <a href="//vasturiano.github.io/react-globe.gl/example/random-rings/"><img width="70%" src="https://vasturiano.github.io/react-globe.gl/example/random-rings/preview.png"></a>
+   <a href="//francois-baptiste.github.io/react-globe.gl/example/random-rings/"><img width="70%" src="https://francois-baptiste.github.io/react-globe.gl/example/random-rings/preview.png"></a>
 </p>
 
 | Prop | Type | Default | Description |
@@ -285,7 +285,7 @@ ReactDOM.render(
 ### Labels Layer
 
 <p align="center">
-   <a href="//vasturiano.github.io/react-globe.gl/example/world-cities/"><img width="70%" src="https://vasturiano.github.io/react-globe.gl/example/world-cities/preview.png"></a>
+   <a href="//francois-baptiste.github.io/react-globe.gl/example/world-cities/"><img width="70%" src="https://francois-baptiste.github.io/react-globe.gl/example/world-cities/preview.png"></a>
 </p>
 
 | Prop | Type | Default | Description |
@@ -312,7 +312,7 @@ ReactDOM.render(
 ### Custom Layer
 
 <p align="center">
-   <a href="//vasturiano.github.io/react-globe.gl/example/custom-layer/"><img width="70%" src="https://vasturiano.github.io/react-globe.gl/example/custom-layer/preview.png"></a>
+   <a href="//francois-baptiste.github.io/react-globe.gl/example/custom-layer/"><img width="70%" src="https://francois-baptiste.github.io/react-globe.gl/example/custom-layer/preview.png"></a>
 </p>
 
 | Prop | Type | Default | Description |
@@ -363,5 +363,5 @@ ReactDOM.render(
 [npm-url]: https://npmjs.org/package/react-globe.gl
 [build-size-img]: https://img.shields.io/bundlephobia/minzip/react-globe.gl.svg
 [build-size-url]: https://bundlephobia.com/result?p=react-globe.gl
-[dependencies-img]: https://img.shields.io/david/vasturiano/react-globe.gl.svg
-[dependencies-url]: https://david-dm.org/vasturiano/react-globe.gl
+[dependencies-img]: https://img.shields.io/david/francois-baptiste/react-globe.gl.svg
+[dependencies-url]: https://david-dm.org/francois-baptiste/react-globe.gl
